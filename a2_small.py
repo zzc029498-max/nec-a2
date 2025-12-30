@@ -396,7 +396,7 @@ if __name__ == "__main__":
     
     # Create a sample graph
     # graph = create_sample_graph('small')
-    graph = Graph.load_from_file("/Users/jiangyutang/Desktop/a2/fpsol2.i.1.col") 
+    graph = Graph.load_from_file("/Users/jiangyutang/Desktop/a2/myciel3.col") 
     print(f"Graph: {graph.V} vertices, {len(graph.edges)} edges")
     
     # Test different parameter combinations
